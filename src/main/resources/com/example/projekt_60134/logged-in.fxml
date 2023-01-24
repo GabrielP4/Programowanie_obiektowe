@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="360.0" prefWidth="470.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.projekt_60134.LoggedInController">
+   <children>
+      <AnchorPane prefHeight="400.0" prefWidth="200.0" style="-fx-background-color: rgb(255, 184, 51);" HBox.hgrow="ALWAYS">
+         <children>
+            <Label fx:id="lb_userfirstname" layoutX="22.0" layoutY="39.0" prefHeight="23.0" prefWidth="77.0" text="Imię" />
+            <Label fx:id="lb_userlastname" alignment="CENTER_RIGHT" contentDisplay="RIGHT" layoutX="106.0" layoutY="39.0" prefHeight="23.0" prefWidth="77.0" text="Nazwisko" textAlignment="RIGHT" />
+            <Button fx:id="btn_logout" layoutX="131.0" layoutY="14.0" mnemonicParsing="false" style="-fx-background-color: transparent;" text="Wyloguj" />
+            <Label layoutX="22.0" layoutY="18.0" text="Witaj" />
+            <ImageView fitHeight="257.0" fitWidth="180.0" layoutX="14.0" layoutY="96.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Banner.jpg" />
+               </image>
+            </ImageView>
+            <Label layoutX="54.0" layoutY="73.0" text="Najgorętszy NEWS" />
+         </children>
+      </AnchorPane>
+      <VBox alignment="TOP_CENTER" prefHeight="360.0" prefWidth="265.0" spacing="10.0" style="-fx-background-color: rgb(163, 163, 117);">
+         <children>
+            <ImageView fitHeight="40.0" fitWidth="250.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Mini_banner.jpg" />
+               </image>
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+            </ImageView>
+            <ImageView fitHeight="40.0" fitWidth="250.0" layoutX="18.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Mini_banner.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="40.0" fitWidth="250.0" layoutX="18.0" layoutY="70.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Mini_banner.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="40.0" fitWidth="250.0" layoutX="18.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Mini_banner.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="40.0" fitWidth="250.0" layoutX="18.0" layoutY="70.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Mini_banner.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="40.0" fitWidth="250.0" layoutX="18.0" layoutY="120.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Mini_banner.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="40.0" fitWidth="250.0" layoutX="18.0" layoutY="270.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Mini_banner.jpg" />
+               </image>
+            </ImageView>
+         </children>
+         <opaqueInsets>
+            <Insets top="10.0" />
+         </opaqueInsets>
+         <HBox.margin>
+            <Insets />
+         </HBox.margin>
+         <padding>
+            <Insets top="10.0" />
+         </padding>
+      </VBox>
+   </children>
+</HBox>
